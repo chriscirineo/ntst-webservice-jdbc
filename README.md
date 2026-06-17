@@ -1,4 +1,4 @@
-# Netsmart Web Service JDBC Driver (SBC SOAP)
+# Netsmart Web Service JDBC Driver (SOAP)
 
 This project provides a custom JDBC pass-through driver that translates standard SQL queries into SOAP requests for a Netsmart Web Service endpoint. It allows SQL clients (like DBeaver) to query the SOAP service as if it were a standard relational database.
 

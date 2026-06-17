@@ -152,7 +152,7 @@ public class SoapDatabaseMetaData implements DatabaseMetaData {
     @Override
     public String getDriverName() throws SQLException {
         // This populates the "Driver:" name in the dialog
-        return "SBC SOAP JDBC Pass-Through Driver";
+        return "Netsmart SOAP JDBC Pass-Through Driver";
     }
 
     @Override
