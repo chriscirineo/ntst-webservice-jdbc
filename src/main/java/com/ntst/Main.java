@@ -17,7 +17,7 @@ public class Main {
 
         String testQuery = args[3];
 
-        System.out.println("Initializing SBC SOAP JDBC Driver Test...");
+        System.out.println("Initializing Netsmart SOAP JDBC Driver Test...");
         System.out.println("Connecting to: " + jdbcUrl);
 
         // 2. Set up the connection properties

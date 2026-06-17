@@ -1,4 +1,4 @@
-# Netsmart Web Service JDBC Driver (SBC SOAP)
+# Netsmart Web Service JDBC Driver (SOAP)
 
 This project provides a custom JDBC pass-through driver that translates standard SQL queries into SOAP requests for a Netsmart Web Service endpoint. It allows SQL clients (like DBeaver) to query the SOAP service as if it were a standard relational database.
 
@@ -38,7 +38,7 @@ Once you have built the JAR file, you can add it to DBeaver to start querying yo
 3. On the connection settings screen, locate the **JDBC URL** field. 
 4. **Enter your Web Service URL and Environment Parameter:**
    
-   The URL uses a custom protocol format. You must omit `https://` because the driver injects it automatically. Append your environment code (like `UAT`, `SBOX`, or `PRD`) using the `env` query parameter.
+   The URL uses a custom protocol format. You must omit `https://` because the driver injects it automatically. Append your environment code (like `UAT`, `SBOX`, or `LIVE`) using the `env` query parameter.
 
    **Format:**
    ```text
