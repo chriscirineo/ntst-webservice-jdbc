@@ -1,0 +1,65 @@
+<FindBugsFilter><Match>
+        <Package name="~.*\.*dto"/>
+        <Bug pattern="EI_EXPOSE_REP2" />
+    </Match>
+    <Match>
+        <Package name="~.*\.*model"/>
+        <Bug pattern="EI_EXPOSE_REP" />
+    </Match>
+    <Match>
+        <Package name="~.*\.model\..*"/>
+        <Bug pattern="EI_EXPOSE_REP" />
+    </Match>
+    <Match>
+        <Package name="~.*\.model\..*"/>
+        <Bug pattern="EI_EXPOSE_REP2" />
+    </Match>
+    <Match>
+        <Package name="~.*\.*model*"/>
+        <Bug pattern="EI_EXPOSE_REP2" />
+    </Match>
+    <Match>
+        <Package name="~.*\.*dto"/>
+        <Bug pattern="EI_EXPOSE_REP" />
+    </Match>
+    <Match>
+        <Package name="~.*\.*service*"/>
+        <Bug pattern="EI_EXPOSE_REP2" />
+    </Match>
+    <Match>
+        <Package name="~.*\.service\..*"/>
+        <Bug pattern="EI_EXPOSE_REP2" />
+    </Match>
+    <Match>
+        <Package name="~.*\.service(\..*)?"/>
+        <Bug pattern="EI_EXPOSE_REP2" />
+    </Match>
+    <Match>
+        <Package name="~.*\.*service"/>
+        <Bug pattern="EI_EXPOSE_REP" />
+    </Match>
+    <Match>
+        <Package name="~.*\.*config*"/>
+        <Bug pattern="EI_EXPOSE_REP2" />
+    </Match>
+    <Match>
+        <Package name="~.*\.*config"/>
+        <Bug pattern="EI_EXPOSE_REP" />
+    </Match>
+    <Match>
+        <Package name="~.*\.request.*"/>
+        <Bug pattern="VA_FORMAT_STRING_USES_NEWLINE" />
+    </Match>
+    <Match>
+        <Package name="~.*\.response.*"/>
+        <Bug pattern="VA_FORMAT_STRING_USES_NEWLINE" />
+    </Match>
+    <Match>
+        <Package name="~.*\.util.*"/>
+        <Bug pattern="VA_FORMAT_STRING_USES_NEWLINE" />
+    </Match>
+    <Match>
+        <Package name="~.*\.utils.*"/>
+        <Bug pattern="VA_FORMAT_STRING_USES_NEWLINE" />
+    </Match>
+</FindBugsFilter>
